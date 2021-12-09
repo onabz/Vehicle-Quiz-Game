@@ -9,8 +9,9 @@ beginButton.addEventListener('click', beginGame);
  * function for initiating the game when user clicks on the 'Let's Go' button
  */
 function beginGame() {
-    beginButton.classList.add('vanish')
-    questionBox.classList.remove('vanish')
+    beginButton.classList.add('vanish');
+    questionBox.classList.remove('vanish');
+    nextQuestion();
 }
 
 function nextQuestion() {
