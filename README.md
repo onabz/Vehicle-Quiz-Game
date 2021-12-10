@@ -28,21 +28,16 @@ Below are sketched images of how I planned to layout the quiz game. The lines ac
 
 ### Existing Features
 
-- __Navigation Bar__
+- __Play Button__
 
-  - It is made up of six links including the logo. They are the Home page, About page, Membership page, Classes page, Gallery and the Contact page. It is fully responsive and features on all the pages. The Logo also links back to the home page. 
-  - It makes it very easy for users to navigate around the pages with multiple links back to the home page.  
+  - It is a large and bold button  with the word play written on it that screams click me !!!.
+  - It has a hover effect applied on it to show user that something is about to happen when they run the mouse pointer over it. It also has a box shadow effect around it to further make it stand out.  
 
-![Nav Bar](documentation/testing/nav-bar.png)
-
- __Favicon__
-  - The Muscle Gains site features a Favicon created from the Muscle Gains logo.
-
-![Favicon](documentation/testing/favicon-image.png)
+![Play Button](documentation/testing/play-button.png)
 
 - __The home page__
 
-  - The home page features a background image of a bodybuilder carrying out a squat with a barbel at Muscle Gains gym.
+  - The home page features a purple background color.
   - The gym name is boldly printed on the background image with the gym mantra written underneath.
 
 ![Home Page](documentation/testing/home-page.png)
