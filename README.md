@@ -1,26 +1,21 @@
 # Vehicle Quiz Game
-Thw vehicle quiz game is a game for vehicle enthusiasts. It includes 30 questions in total comprising of mostly multiple-choice questions and some true or false questions. The multiple-choice questions each come with four options to choose from. They range from questions about cars to trains and motorcycles with varying difficulty levels.     
-
+The vehicle quiz game is a game for vehicle enthusiasts. It includes 30 questions in total comprising of mostly multiple-choice questions and some true or false questions. The multiple-choice questions each come with four options to choose from. They range from questions about cars to trains and motorcycles with varying difficulty levels.     
 
 ![Responsive Mockup](documentation/testing/ami-responsive.png)
 
-From the Responsive Mockup image used above, it is clear that the view port of the mobile device used which is an older iphone model is very small hence the reason why the home screen might not look very responsive. The image below shows a view of the home screen from my peronal mobile device which is a Samsung Galaxy Note 20 Ultra.
-
-![Samsung Galaxy Note 20 Ultra](documentation/testing/samsung-galaxy.jpg)
+The Responsive Mockup image above shows how responsive the Vehicle quiz game is across various device screen sizes ranging from mobile devices to large monitor screens. The Vehicle quiz game is well layed out with a clear font style used across the pages. The buttons are very legible on all the screen sizes. 
 
 ## UX
 
-### Colour Scheme and Images Used
+### Colour Scheme Used
 
-I chose to go with a dark theme through out the site to express to the user a sense of professionalism and seriousness about fitness. The background images used throughout the site help to showcase the enthusiasm of gym members in general, the quality of equipments and gym floors available, and the 'no nonsense' vibe and energy surrounding the entire gym atmosphere. The red accents used throughout the site help to highlight important aspects of each page like the red buttonts and active red navigation links. All the background images used have a linear gradient opacity over them in order to make the content on them stand out even more.
 
 ### Typography
 
-I chose to use the font called Roboto Condensed from Google fonts throughout the website because it is a bold and striking font that evokes seriousness and passion. For the social media icons i chose to go with Font Awesome for their large variey of icons that are sharp and have a clean design.
 
 ### Wireframes
 
-Below are sketched images of how I planned to layout the website design. You will notice that the final design of the website is slightly different from my initial sketches for some pages like the about page. I felt the initial design of the About page would be too clustered not allowing enough room for te text message that is on the final product. And also I decided to go with using pricing cards instead of conventional tables on the Membership page because I felt the pricing Cards  were more informative and simpler to understand making it easier for the user to make an informed decision on which plan to go for as quickly as possible.
+Below are sketched images of how I planned to layout the quiz game. The lines across indicate that background colors were used.
 
 ![Home Wireframe Image](documentation/wireframes/wireframe-home.jpg)
 ![About Wireframe Image](documentation/wireframes/wireframe-about.jpg)
