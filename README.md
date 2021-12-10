@@ -65,7 +65,7 @@ Below are sketched images of how I planned to layout the quiz game. The lines ac
   - The next button when selected reveals the next question. 
   - The next button is hiddened when the next question is displayed.
 
-  ![Next Button](documentation/testing/next-button.png)
+![Next Button](documentation/testing/next-button.png)
 
   __The User Score Screen__
 
@@ -73,66 +73,52 @@ Below are sketched images of how I planned to layout the quiz game. The lines ac
   - This screen appears after the user has answered a set of 10 questions. The user's score is calculated and displayed boldly in simple text.
   - The user can then choose to restart the game by clicking on the restart button or go back to the home page by clicking on the home button. 
 
-  ![Membership Page](documentation/testing/user-score-screen.png)
+![User Score Screen](documentation/testing/user-score-screen.png)
 
   __The Restart Button__
 
   - The restart button, when clicked, takes the user back to the start page with the "Let's Go" button after which another set of 10 questions is displayed again one by one for the user to answer.
 
-  ![Classes Page](documentation/testing/restart-button.png)
+![Restart Button](documentation/testing/restart-button.png)
 
-- __Gallery__
+- __The Home Button__
 
-  - The gallery page displays various pictures of Muscle Gains gym members doing various fitness activities that go on at the gym.
-  - The pictures help to show the user the various studios, open spaces, and equipments available to them if they become members.
+  - The home button, when clicked, takes the user back to the home page with the play button.
 
-![Gallery](documentation/testing/gallery.png)
-
-- __The Contact Page__
-
-  -  This is the page that allow users to sign up to become members of Muscle Gains. It also shows the contact details of Muscle Gains.
-
-![Contact Page](documentation/testing/contact-page.png)
+![Home Button](documentation/testing/home-button.png)
 
 ### Features Left to Implement
 
-- Interactive Google map on the contact page.
-- Hoover effect on each image on the gallery page to make each pop out when a user rolls the mouse pointer over it.
-- A booking schedule form on the classes page to allow users book classes ahead.
-- Hoover effect on each membership plan card on the membership page when a user rolls the mouse pointer over it.
-- Add some images to the About page that help show some of the important features of Muscle Gains. 
+- A more interactive home page that lays out how to play the game and the features of the game.
+- The ability to save your game with a user profile.
+- A high score table showing top user scores. 
 
 ## Technologies Used
 
-- I used HTML to design the entire frame work of the website.
+- I used HTML to design the two web pages.
 - I used CSS to design the enitre website.
-- I used the Favicon.io converter to compress my favicon image.
+- I used Javascript to add fuctionality to the game enabling user interaction.
 - I used Gitpod as my code editor to write all the codes used throughout the website.
 - I used Github to host my repositories.
 - I used Git for version control of my website.
 
 ## Testing 
 
-- I confirmed that the navigation, logo, home, about, membership, classes, gallery and contact text are all readable and easy to understand.
-- I have tested all the 'Join Us' buttons through out the website to make sure they link back to the contact page
-- I have tested the site for responsiveness making sure that it looks easy to use across all standard screen sizes using the Google chrome development tool. 
+- I confirmed that all buttons were functional.
+- I tested that the home button links back to the home page.
+- I have tested the site for responsiveness making sure that it looks easy to use across all standard screen sizes using the Google chrome development tool.
+- I checked that random sets of questions were being generated each time the restart button was clicked.
+I tested that the correct user scores were displayed at the end of the game.  
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https://onabz.github.io/muscle_gains/index.html) (index.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https://onabz.github.io/Vehicle-Quiz-Game/) (index.html)
  
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https://onabz.github.io/muscle_gains/about.html) (about.html)
-
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https://onabz.github.io/muscle_gains/membership.html) (membership.html)
-  
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https://onabz.github.io/muscle_gains/classes.html) (classes.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https://onabz.github.io/Vehicle-Quiz-Game/game.html) (game.html)
  
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https://onabz.github.io/muscle_gains/gallery.html) (gallery.html)
-
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https://onabz.github.io/muscle_gains/contact.html) (contact.html)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fonabz.github.io%2Fmuscle_gains&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fonabz.github.io%2FVehicle-Quiz-Game%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Unfixed Bugs
 
