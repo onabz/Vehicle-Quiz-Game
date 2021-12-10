@@ -6,7 +6,7 @@ The vehicle quiz game is a game for vehicle enthusiasts. It includes 30 question
 The Responsive Mockup image above shows how responsive the Vehicle quiz game is across various device screen sizes ranging from mobile devices to large monitor screens. The Vehicle quiz game is well layed out with a clear font style used across the pages. The buttons are very legible on all the screen sizes. 
 
 ## UX
-
+I chose to go with a very rich and bright color scheme through out the site to express to the user a sense of fun and playfulness. The dark and light shades of purple compliment each other very well.The buttons are large enough to be clicked on and touched with the fingers on a touch screen. Hover effects are used on all the buttons to further enhance the legibility of the buttons and thus the user experience. On selcting the correct answer, the button turns to a very bright green color while on selecting the wrong answer it changes to a bright red color. The background color also changes color depending on whether the user selects the correct or wrong answer to further get the user engaged in the game. 
 ### Colour Scheme Used
 
 
