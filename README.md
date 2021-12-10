@@ -1,8 +1,6 @@
 # Vehicle Quiz Game
+Thw vehicle quiz game is a game for vehicle enthusiasts. It includes 30 questions in total comprising of mostly multiple-choice questions and some true or false questions. The multiple-choice questions each come with four options to choose from. They range from questions about cars to trains and motorcycles with varying difficulty levels.     
 
-Muscle Gains is a site for fitness enthusiast that are serious about becoming all round athletes. It is a site that helps to showcase all the top notch services that Muscle Gains gym has to offer. Muscle Gains is a Uk based gym with some of the best equipments that money can buy with specially designed open spaces and studios that help to elevate your workout and fitness routines in order for you to achieve your fitness goals. 
-
-Muscle Gains caters to many fitness disciplines including crossfit, boxing and martial arts. Muscle Gains is home to highly trained fitness specialists who will help you meet all your fitness targets using scientifically proven techniques.
 
 ![Responsive Mockup](documentation/testing/ami-responsive.png)
 
