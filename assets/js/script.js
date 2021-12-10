@@ -91,10 +91,12 @@ function chooseAnswer(e) {
 }
 
 /**
- * function to display user score
+ * function to display user score and restar button
  */
 function gameOver() {
-    questionItem.innerText = `game over: correct = ${correctAnswers}, wrong = ${wrongAnswers} `;
+    questionItem.innerHTML = `GAME OVER: Correct = ${correctAnswers}, Wrong = ${wrongAnswers} <br><br><br><br><br> 
+    <button id="restart-btn" onclick="location.reload()">RESTART</button> `;
+    
 }
 
 /** 
