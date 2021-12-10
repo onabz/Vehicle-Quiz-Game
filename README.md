@@ -65,24 +65,21 @@ Below are sketched images of how I planned to layout the quiz game. The lines ac
   - The next button when selected reveals the next question. 
   - The next button is hiddened when the next question is displayed.
 
-  ![About Page](documentation/testing/about-page.png)
+  ![Next Button](documentation/testing/next-button.png)
 
-  __Membership Page__
+  __The User Score Screen__
 
-  - This page features a background image of a man and a woman doing a work out using warrior ropes.
-  - It also features two cards that clearly show two different plans available to users which are the basic plan and the full plan. Each plan lists out its benefits and price enabling the user to make an informed decision on which plan to go for.
-  - Each card houses a red button with the text 'Join Us'. The buttons feature a hoover effect involving a change in color from red to green matching the green tick symbols beside some of the benefits on each cards. The red star symbols clearly signifies the benefits not available on the basic plan.
-  - Clicking on either of the buttons takes the user to the contact page where they can register. 
+  - This screen is made up of the user's score area, the restart button and the home button.
+  - This screen appears after the user has answered a set of 10 questions. The user's score is calculated and displayed boldly in simple text.
+  - The user can then choose to restart the game by clicking on the restart button or go back to the home page by clicking on the home button. 
 
-  ![Membership Page](documentation/testing/membership-page.png)
+  ![Membership Page](documentation/testing/user-score-screen.png)
 
-  __Classes Page__
+  __The Restart Button__
 
-  - This page has a background image of some Muscle Gains gym members doing martial arts and boxing classes in the dedicated boxing and martial arts studio.
-  - It includes a timetable of all the available classes to members of Muscle Gains Gym. It shows the days, classes and times to enable users attend classes they are interested in. 
-  - The main table has an opaque background color to enable users still be able to see the gym member doing a jumping kick on a punching bag.
+  - The restart button, when clicked, takes the user back to the start page with the "Let's Go" button after which another set of 10 questions is displayed again one by one for the user to answer.
 
-  ![Classes Page](documentation/testing/classes-page.png)
+  ![Classes Page](documentation/testing/restart-button.png)
 
 - __Gallery__
 
