@@ -95,7 +95,7 @@ function chooseAnswer(e) {
  */
 function gameOver() {
     questionItem.innerHTML = `GAME OVER: Correct = ${correctAnswers}, Wrong = ${wrongAnswers} <br><br><br><br><br> 
-    <button id="restart-btn" onclick="location.reload()">RESTART</button> `;
+    <button id="restart-btn" onclick="location.reload()">RESTART</button>`;
     
 }
 
