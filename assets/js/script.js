@@ -6,9 +6,11 @@ const questionItem = document.getElementById('question');
 const answerItems = document.getElementById('answer-buttons');
 const nextButton = document.getElementById('next-btn');
 let mixQuestions, currentQuestionNumber;
+let correctAnswers = 0;
+let wrongAnswers = 0;
 
 beginButton.addEventListener('click', beginGame);
-nextButton.addEventListener('click', nextQuestion):
+nextButton.addEventListener('click', nextQuestion);
 
 /**
  * function for initiating the game when user clicks on the 'Let's Go' button,
@@ -27,9 +29,15 @@ function beginGame() {
  */
 function nextQuestion() {
     resetState();
+    if (currentQuestionNumber <= 9) {
+        currentQuestionNumber++;
     getQuestion(mixQuestions[currentQuestionNumber]);
+    } else {
+        gameOver();
+    }
+    console.log('correct answers = ' + correctAnswers);
+    console.log('wrong answers = ' + wrongAnswers);
 }
-
 /** 
  * function for displaying questions
 */
@@ -68,11 +76,25 @@ function chooseAnswer(e) {
         bodyStatus(button, button.dataset.correct)
         button.disabled = true
     });
+    if (right) {
+        correctAnswers++;
+    } else {
+        wrongAnswers++;
+    }
+
+    if (mixQuestions.length > currentQuestionNumber + 1) {
     nextButton.classList.remove('vanish')
+    }  else {
+        beginButton.innerText = 'Restart'
+        beginButton.classList.remove('vanish')
+    }
 }
 
+/**
+ * function 
+ */
 function gameOver() {
-
+    
 }
 
 /** 
@@ -87,7 +109,10 @@ function bodyStatus(entity, right) {
     }
 }
 
+/**
+ * function to remove the status set from the above function
+ */
 function bodyStatusRemove(entity) {
-    entity.classList.remove('correct')
-    entity.classList.remove('wrong')
+    entity.classList.remove('correct');
+    entity.classList.remove('wrong');
 }
