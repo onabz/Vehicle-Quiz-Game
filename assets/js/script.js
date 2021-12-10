@@ -18,7 +18,7 @@ nextButton.addEventListener('click', nextQuestion);
  */
 function beginGame() {
     beginButton.classList.add('vanish');
-    mixQuestions = questions.sort(() => Math.random() - .5);
+    mixQuestions = questions.sort(() => Math.random() - 0.5);
     currentQuestionNumber = 0;
     questionBoxItem.classList.remove('vanish');
     nextQuestion();
@@ -52,7 +52,7 @@ function getQuestion(question) {
         }
         button.addEventListener('click', chooseAnswer);
         answerItems.appendChild(button);
-    })
+    });
 }
 
 /**
@@ -71,10 +71,10 @@ function resetState() {
 function chooseAnswer(e) {
     const choosenButton = e.target;
     const right = choosenButton.dataset.correct;
-    bodyStatus(document.body, right)
+    bodyStatus(document.body, right);
     Array.from(answerItems.children).forEach(button => {
-        bodyStatus(button, button.dataset.correct)
-        button.disabled = true
+        bodyStatus(button, button.dataset.correct);
+        button.disabled = true;
     });
     if (right) {
         correctAnswers++;
@@ -83,10 +83,10 @@ function chooseAnswer(e) {
     }
 
     if (mixQuestions.length > currentQuestionNumber + 1) {
-    nextButton.classList.remove('vanish')
+    nextButton.classList.remove('vanish');
     }  else {
-        beginButton.innerText = 'Restart'
-        beginButton.classList.remove('vanish')
+        beginButton.innerText = 'Restart';
+        beginButton.classList.remove('vanish');
     }
 }
 
@@ -103,7 +103,7 @@ function gameOver() {
  * function to set status based on whether user answer is right or wrong
 */
 function bodyStatus(entity, right) {
-    bodyStatusRemove(entity)
+    bodyStatusRemove(entity);
     if (right) {
         entity.classList.add('correct');
     } else {
