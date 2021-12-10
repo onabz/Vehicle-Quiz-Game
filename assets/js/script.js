@@ -91,10 +91,10 @@ function chooseAnswer(e) {
 }
 
 /**
- * function 
+ * function to display user score
  */
 function gameOver() {
-    
+    questionItem.innerText = `game over: correct = ${correctAnswers}, wrong = ${wrongAnswers} `;
 }
 
 /** 
