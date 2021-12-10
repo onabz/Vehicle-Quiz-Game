@@ -31,8 +31,17 @@
 
 h1 {
     color: white;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bolder;
+}
+
+#h2-home {
+    color: white;
+}
+
+h2 {
+    color: rgb(205, 36, 211);
+    font-size: 40px;
 }
 
 #play-btn {
@@ -70,6 +79,9 @@ h1 {
     border-radius: 5px;
     box-shadow: 0 0 10px 2px;
 }
+#question {
+    font-size: 20px;
+}
 
 .btn-section {
     margin: 20px 0;
@@ -85,6 +97,7 @@ h1 {
     border: 2px solid black;
     border-radius: 5px;
     outline: none;
+    font-size: 20px;
 }
 
 .btn:hover {
@@ -108,6 +121,35 @@ h1 {
 
 .start-btn:hover, .next-btn:hover {
     background-color: rgb(205, 36, 211);
+}
+
+#restart-btn {
+    background-color: rgb(205, 36, 211);
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+}
+
+#restart-btn:hover{
+    background-color: rgba(112, 53, 255, 1);
+    color: black;
+}
+
+a {
+    background-color: rgb(205, 36, 211);
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgba(112, 53, 255, 1);
+    color: black;
 }
 
 .controls {
