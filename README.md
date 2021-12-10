@@ -6,23 +6,23 @@ The vehicle quiz game is a game for vehicle enthusiasts. It includes 30 question
 The Responsive Mockup image above shows how responsive the Vehicle quiz game is across various device screen sizes ranging from mobile devices to large monitor screens. The Vehicle quiz game is well layed out with a clear font style used across the pages. The buttons are very legible on all the screen sizes. 
 
 ## UX
-I chose to go with a very rich and bright color scheme through out the site to express to the user a sense of fun and playfulness. The dark and light shades of purple compliment each other very well.The buttons are large enough to be clicked on and touched with the fingers on a touch screen. Hover effects are used on all the buttons to further enhance the legibility of the buttons and thus the user experience. On selcting the correct answer, the button turns to a very bright green color while on selecting the wrong answer it changes to a bright red color. The background color also changes color depending on whether the user selects the correct or wrong answer to further get the user engaged in the game. 
-### Colour Scheme Used
 
+### Colour Scheme Used
+I chose to go with a very rich and bright color scheme through out the site to express to the user a sense of fun and playfulness. The dark and light shades of purple compliment each other very well.The buttons are large enough to be clicked on and touched with the fingers on a touch screen. Hover effects are used on all the buttons to further enhance the legibility of the buttons and thus the user experience. On selcting the correct answer, the button turns to a very bright green color while on selecting the wrong answer it changes to a bright red color. The background color also changes color depending on whether the user selects the correct or wrong answer to further get the user engaged in the game. 
 
 ### Typography
 
+I chose to use the font called Roboto Condensed from Google fonts throughout the website because it is a bold and striking font that not only evokes seriousness and passion, but when used along side the bright colors on the site also creates a sense of playfulness.
 
 ### Wireframes
 
-Below are sketched images of how I planned to layout the quiz game. The lines across indicate that background colors were used.
+Below are sketched images of how I planned to layout the quiz game. The lines across indicate that background colors were used. The final design for the restart button is slightly different from the wireframe image because i decided to include the user score so added the restart button to the screen that shows the user score. I also added the home button below the restart button.
 
-![Home Wireframe Image](documentation/wireframes/wireframe-home.jpg)
-![About Wireframe Image](documentation/wireframes/wireframe-about.jpg)
-![Membership Wireframe Image](documentation/wireframes/wireframe-membership.jpg)
-![Classes Wireframe Image](documentation/wireframes/wireframe-classes.jpg)
-![Gallery Wireframe Image](documentation/wireframes/wireframe-gallery.jpg)
-![Contact Wireframe Image](documentation/wireframes/wireframe-contact.jpg)
+![Home Wireframe Image](documentation/wireframes/wireframe-homepage.jpg)
+![Start button Wireframe Image](documentation/wireframes/wireframes-start-button.jpg)
+![Question section Wireframe Image](documentation/wireframes/wireframes-questions-box.jpg)
+![Restart button Wireframe Image](documentation/wireframes/wireframes-restart-button.jpg)
+
 
 ## Features 
 
