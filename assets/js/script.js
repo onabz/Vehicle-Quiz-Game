@@ -8,6 +8,7 @@ const nextButton = document.getElementById('next-btn');
 let mixQuestions, currentQuestionNumber;
 
 beginButton.addEventListener('click', beginGame);
+nextButton.addEventListener('click', nextQuestion):
 
 /**
  * function for initiating the game when user clicks on the 'Let's Go' button,
@@ -67,6 +68,7 @@ function chooseAnswer(e) {
         bodyStatus(button, button.dataset.correct)
         button.disabled = true
     });
+    nextButton.classList.remove('vanish')
 }
 
 function gameOver() {
