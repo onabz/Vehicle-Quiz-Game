@@ -37,31 +37,33 @@ Below are sketched images of how I planned to layout the quiz game. The lines ac
 
 - __The home page__
 
-  - The home page features a purple background color.
-  - The gym name is boldly printed on the background image with the gym mantra written underneath.
-
+  - The home page features a very bright purple background color with some text to tell the user what to do which is to press the play button.
+ 
 ![Home Page](documentation/testing/home-page.png)
 
-- __The 'Join Us' button__
+- __The "Let'Go" button__
 
   - The home page also features button which is placed underneath the mantra to draw the attention of the user to click on it. 
   - It has a bold red background color with the text 'Join Us' to draw the users attention to click on it.
   - The button features a hoover effect in the form of a bacground color change from red to grey to show the user that an action is about to occur.
   - Once clicked on, it then takes the user to the contact page where they can register to become a member. 
 
-![Home Page Button](documentation/testing/home-page-btn.png)
+![Let's Go Button](documentation/testing/lets-go-button.png)
 
-- __The Footer__
+- __The Question and Answer Box__
 
-  - At the very bottom of the home page and every other page on the Muscle Gains website is the footer which houses the relevant social media links. 
-  -  When clicked on, these social media links open to a new tab preventing the user from having to use the back button to go back to the page they were on before.
+  - This box contains the questions written boldy in black over the white background. 
+  -  It also houses the answers contained in bold buttons which changes color to green when the answer selected is correct and to red whenthe wrong answer is selected.
 
-![Footer](documentation/testing/footer.png)
+![Question Box](documentation/testing/question-box.png)
+![Correct Answer](documentation/testing/correct-answer.png)
+![Wrong Answer](documentation/testing/wrong-answer.png)
 
-  __About Page__
+  __The Next Button__
 
-  - It has a background image of one of the Muscle Gains gym floors with a barbel loaded with weights and a set of warrior ropes to showcase to the user one of many open spaces for carrying out various workouts. 
-  - Written boldly on the background image are some paragraphs of text to outline what the gyn is about.
+  - The next button does not appear till after the first question has been answered.
+  - The next button when selected reveals the next question. 
+  - The next button is hiddened when the next question is displayed.
 
   ![About Page](documentation/testing/about-page.png)
 
