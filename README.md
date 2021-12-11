@@ -101,6 +101,7 @@ Below are sketched images of how I planned to layout the quiz game. The lines ac
 - I used Gitpod as my code editor to write all the codes used throughout the website.
 - I used Github to host my repositories.
 - I used Git for version control of my website.
+- I used Open Trivia Database to genrate all the questions used in the quiz game.
 
 ## Testing 
 
@@ -119,6 +120,9 @@ I tested that the correct user scores were displayed at the end of the game.
  
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fonabz.github.io%2FVehicle-Quiz-Game%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+- Javascript
+  - No errors were found when passing through the [JSHint](https://jshint.com/)
 
 ## Deployment
 
@@ -142,34 +146,12 @@ Alternatively, if using Gitpod, you can click the green Gitpod button, or use [t
  
 ### Content 
 
-- The text on the About page was taken from [Total Fitness Gym](http://www.total-fitness-gym.com/gym.html)
-- Steps on how to create the pricing plans tables on the membership page was taken from [How to create a Pricing Plans table](https://www.youtube.com/watch?v=jfh0ZJFhj2w)
-- The lines of code I used to push the footer to the bottom of the page was taken from [Sticky Footer with CSS](https://www.youtube.com/watch?v=TaXql0h_wCA)
-- The lines of code i used for the hoover effect on the navigation links on the nav bar was taken from [How to make a website using HTML & CSS](https://www.youtube.com/watch?v=oYRda7UtuhA&list=PLjwm_8O3suyP5kGKmwS_DM0Hs1j7fshi5)
-- The lines of code I used to make the pricing plans on the membership page more responsive was taken from [CSS Responsive Card & Hover Effects with Flexbox](https://www.youtube.com/watch?v=qXRYMdvq_Dc)
-- Instructions on creating the table on the classes page was taken from [Styling HTML tables with CSS](https://www.youtube.com/watch?v=biI9OFH6Nmg&t=125s)
-- Instructions on how to create my gallery layout was taken from [Love Running](https://www.youtube.com/watch?v=puheUvHLbQg)
-- Instructions on how to create the contact page was taken from [How to make a Contact Us Page using HTML and CSS](https://www.youtube.com/watch?v=orBQesFBkXg&t=167s)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- Many of the Javascript functions used in making the quiz functional were from [Build A Quiz App With JavaScript](https://www.youtube.com/watch?v=riDzcEQbX6k)
+- Steps on how to style the user score text were from [Create a Quiz App using HTML CSS & JavaScript | Quiz Web App using JavaScript](https://www.youtube.com/watch?v=CqddbIrEM5I&t=933s)
+- The line of code I used to create the restart button was from [Reload Page - HTML - Javascript lesson 4](https://www.youtube.com/watch?v=SQFwFjMUgUc)
+- Explanations on how to go about calculating the user scores and displaying them were from my Menthor Tim Nelson. 
 - The font used throughout the site called Roboto Condensed was from Google fonts [Google Fonts](https://fonts.google.com/specimen/Roboto+Condensed?preview.text=muscle%20gains%20power%20lifitng&preview.text_type=custom&query=roboto+#standard-styles)
-
-### Media
-
-- The Muscle Gains logo was created using [Adobe Spark logo maker](https://spark.adobe.com/express-apps/logo-maker/)
-- The favicon image was generated from [Favicon.io](https://favicon.io/favicon-converter/)
-- The background image on the Home page was taken from [Pexels](https://www.pexels.com/photo/man-lifting-barbel-17840/)
-- The background image on the About page was taken from [Pexels](https://www.pexels.com/photo/barbell-on-the-floor-1552252/)
-- The background image on the Membership page was taken from [Pexels](https://www.pexels.com/photo/man-and-woman-holding-battle-ropes-1552242/)
-- The background image on the Classes page was taken from [Pexels](https://www.pexels.com/photo/man-kicking-heavy-bag-260447/)
-- The background image on the Contact page was taken from [Pexels]()
-- The gallery_1 image was taken from [Pexels](https://www.pexels.com/photo/woman-doing-yoga-917653/)
-- The gallery_2 image was taken from [Pexels](https://www.pexels.com/photo/woman-holding-exercise-ropes-28080/)
-- The gallery_3 image was taken from [Pexels](https://www.pexels.com/photo/women-having-exercise-using-dumbbells-903171/)
-- The gallery_4 image was taken from [Pexels](https://www.pexels.com/photo/athlete-barbell-bodybuilder-bodybuilding-416717/)
-- The gallery_5 image was taken from [Pexels](https://www.pexels.com/photo/woman-in-black-sleeveless-crop-top-and-white-leggings-using-a-butterfly-machine-in-front-of-a-mirror-1111304/)
-- The gallery_6 image was taken from [Pexels](https://www.pexels.com/photo/woman-pushing-barbel-using-her-feet-136404/)
-- The gallery_7 image was taken from [Pexels](https://www.pexels.com/photo/woman-lifting-barbell-371049/)
-- The gallery_8 image was taken from [Pexels](https://www.pexels.com/photo/woman-lifting-barbell-1552249/)
+- All the questions used in the quiz game were generated from  [Open Trivia Database](https://opentdb.com/api_config.php)
 
 ### Acknowledgements
 
