@@ -120,29 +120,23 @@ I tested that the correct user scores were displayed at the end of the game.
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fonabz.github.io%2FVehicle-Quiz-Game%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-### Unfixed Bugs
-
-- I discovered that on the contact page, the Contact Us padding is not aligned with that of the Register  divide.
-
-  ![Design issue](documentation/testing/bug.jpg)
-
 ## Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
-    * In the [GitHub repository](https://github.com/onabz/muscle_gains), navigate to the Settings tab.
+    * In the [GitHub repository](https://github.com/onabz/Vehicle-Quiz-Game), navigate to the Settings tab.
     * From the Settings tab, scroll down until you see the 'Pages' button on the left.
     * From the Source section drop-down menu, select the `Main` branch.
     * Once the `Main` branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - https://onabz.github.io/muscle_gains
+The live link can be found here - https://onabz.github.io/Vehicle-Quiz-Game/
 
 ### Local Deployment
 
 To make a local copy of this project, you can clone it by typing the following in your IDE terminal:
 
-- `git clone https://github.com/onabz/muscle_gains.git`
+- `git clone https://github.com/onabz/Vehicle-Quiz-Game.git`
 
-Alternatively, if using Gitpod, you can click the green Gitpod button, or use [this link](https://gitpod.io/#https://github.com/onabz/muscle_gains)
+Alternatively, if using Gitpod, you can click the green Gitpod button, or use [this link](https://gitpod.io/#https://github.com/onabz/Vehicle-Quiz-Game)
 
 ## Credits 
  
